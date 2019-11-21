@@ -59,7 +59,7 @@ a:focus{
 footer{
   background-color: black;
   color: white;
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   padding-top: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ footer{
 .container{
   display: grid;
   grid-template-columns: 1fr;
-  width: 100vw; 
+  width: 100vw;
 }
 
 p{
@@ -82,12 +82,12 @@ p{
   color: darkblue;
 }
 
-.headshot{
-  background-attachment: fixed; 
-  background-image: url('../images/cerenbudak_portrait.jpg');      
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;     
+/* .headshot{
+  background-attachment: fixed;
+  background-image: url('../images/cerenbudak_portrait.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 60%;
   width: 45%;
   margin: 0 auto;
@@ -99,10 +99,10 @@ p{
   background-size: 20%;
   background-position-x: center;
   background-position-y: center;
-}
+} */
 
 h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   color: darkblue;
   text-align: center;
