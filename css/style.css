@@ -18,6 +18,9 @@ nav li{
   display: inline;
   padding-right: 20px;
 }
+nav, header, main{
+  grid-column: 1/-1;
+}
 nav a{
   color: black;
   font-weight: bold;
@@ -44,8 +47,90 @@ nav a:hover{
   top: 0;
   transition:none;
 }
+a:focus{
+  transition: none;
+  top: 0px;
+}
+
 *:focus{
   border: 2px solid black;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  grid-column: 1 / -1; 
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw; 
+}
+
+p{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 30px;
+}
+.current{
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.headshot{
+  background-attachment: fixed; 
+  background-image: url('../images/cerenbudak_portrait.jpg');      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;     
+  height: 60%;
+  width: 45%;
+  margin: 0 auto;
+  color: white;
+  grid-column: 1/-1;
+  opacity: .75;
+  max-height: 60%;
+  max-width: 50%;
+  background-size: 20%;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 38px;
+  color: darkblue;
+  text-align: center;
+  line-height: 1;
+  padding: 30px;
+  }
+
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(23, 98, 145);
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    line-height: 1;
+    padding: 15px;
+  }
+
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    padding: 15px;
+  }
+
 @media all and (min-width:1400px){
 
 }
