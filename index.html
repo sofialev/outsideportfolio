@@ -9,27 +9,56 @@
   </head>
   <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
-      <nav>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#index.html" class = "current">Home</a>
+    <a href="#projects.html">Projects</a>
+    <a href="#publications.html">Publications</a>
+    <a href="#experience.html">Experience</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+      <!-- <nav>
         <ul>
           <li><a href="index.html"class="current">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="experience.html">Experience</a></li>
         </ul>
-      </nav>
+      </nav> -->
       https://medium.com/@linlinghao/accessibility-for-hamburger-menu-a37fa9617a89
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <div class="card">
-          <img src="images/cerenbudak_portrait.jpg" alt="John" style="width:100%">
+          <img src="images/cerenbudak_portrait.jpg" alt="John" style="width:60%" style="height:50%">
           <h1>CEREN BUDAK</h1>
-          <p class="title">CEO & Founder, Example</p>
-          <p>University of Michigan School of Information</p>
+        <main>
+          <p class="title">I am an Assistant Professor at the <a href="https://www.si.umich.edu/">University of Michigan School of Information</a>.
+          Before that, I was a Postdoctoral Researcher at <a href="http://research.microsoft.com/en-us/labs/newyork/">Microsoft Research New York</a>.
+          I received my PhD from the <a href="http://www.cs.ucsb.edu">Computer Science Department</a> at University of California, Santa Barbara in December 2012.
+          I received my Bachelors degree from <a href="https://w3.bilkent.edu.tr/www/">Computer Science Dept. @Bilkent University</a> in Turkey in 2007.
+          My research interests lie in the area of computational social science;
+          a discipline at the intersection of computer science, statistics, and the social sciences.
+          I am particularly interested in applying large scale data analysis techniques to study problems with social,
+          political, and policy implications.</p>
+          <p>University of Michigan School of Information</p>
           <a href="#"><i class="fa fa-dribbble"></i></a> 
           <a href="#"><i class="fa fa-twitter"></i></a> 
           <a href="#"><i class="fa fa-linkedin"></i></a> 
           <a href="#"><i class="fa fa-facebook"></i></a> 
           <p><button>Contact</button></p>
+      </main>
         </div>
     <!-- <header id="main">
       <h1>CEREN BUDAK</h1>
@@ -41,17 +70,6 @@
 
       </div>
     </div> -->
-  <main>
-    <p>I am an Assistant Professor at the <a href="https://www.si.umich.edu/">University of Michigan School of Information</a>.
-      Before that, I was a Postdoctoral Researcher at <a href="http://research.microsoft.com/en-us/labs/newyork/">Microsoft Research New York</a>.
-      I received my PhD from the <a href="http://www.cs.ucsb.edu">Computer Science Department</a> at University of California, Santa Barbara in December 2012.
-      I received my Bachelors degree from <a href="https://w3.bilkent.edu.tr/www/">Computer Science Dept. @Bilkent University</a> in Turkey in 2007.</p>
-    <p>My research interests lie in the area of computational social science;
-  	a discipline at the intersection of computer science, statistics, and the social sciences.
-  	I am particularly interested in applying large scale data analysis techniques to study problems with social,
-  	political, and policy implications.</p>
-
-</main>
   <footer>
     School of Information, University of Michigan<br/>
     Email: cbudak@umich.edu Twitter: @cerenbudak<br/>
