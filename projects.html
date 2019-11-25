@@ -2,22 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name = ‘viewport’ content="width=device-width, initial-scale=1.0">
     <title>Ceren Budak</title>
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
-    <div class="nav">
-      <nav>
-        <ul class="nav-bar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html"class="current">Projects</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="experience.html">Experience</a></li>
-        </ul>
-      </nav>
+
+    <div class="topnav">
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class = "current">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="experience.html">Experience</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
     </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <h1>Ceren Budak</h1>
     <p>Assistant Professor</p>
     <p>University of Michigan School of Information</p>
@@ -65,10 +71,22 @@
         <p>Let's think of another question: Why do people care about the causes that they do? Does exposure increase interest? We are currently working on this problem in the context of poverty and homelessness. Stay tuned for our results...</p>
       </li>
     </ol>
+
+    <footer>
+      School of Information, University of Michigan<br/>
+      Email: cbudak@umich.edu Twitter: @cerenbudak<br/>
+      4322 North Quad, 105 S. State St. Office: NQ 3336
+    </footer>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
   </body>
-  <footer>
-    School of Information, University of Michigan<br/>
-    Email: cbudak@umich.edu Twitter: @cerenbudak<br/>
-    4322 North Quad, 105 S. State St. Office: NQ 3336
-  </footer>
 </html>
