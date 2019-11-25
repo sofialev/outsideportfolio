@@ -109,12 +109,15 @@ a:focus{
 } */
 
 footer{
-  background-color: black;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   grid-column: 1 / -1;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
   text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 .container{
   display: grid;
@@ -123,46 +126,29 @@ footer{
 }
 
 p{
-  font-size: 25px;
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  text-align: center;
-  padding: 30px;
+  text-align: left;
+  padding: 10px;
 }
 .current{
   text-decoration: underline;
   color: darkblue;
 }
 
-/* .headshot{
-  background-attachment: fixed;
-  background-image: url('../images/cerenbudak_portrait.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60%;
-  width: 45%;
-  margin: 0 auto;
-  color: white;
-  grid-column: 1/-1;
-  opacity: .75;
-  max-height: 60%;
-  max-width: 50%;
-  background-size: 20%;
-  background-position-x: center;
-  background-position-y: center;
-} */
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 80%;
   margin: auto;
   text-align: center;
+  background-color: white;
   }
 
 .title {
-  color: grey;
+  color: black;
   font-size: 18px;
+  text-align: center;
   }
 
 button {
@@ -180,12 +166,13 @@ button {
 
 a {
   text-decoration: none;
-  font-size: 22px;
-  color: black;
+  font-size: 18px;
+  color: rgb(9, 0, 134);
   }
 
 button:hover, a:hover {
   opacity: 0.7;
+  color: darkblue;
   }
 
 h1{
@@ -194,34 +181,49 @@ h1{
   color: darkblue;
   text-align: center;
   line-height: 1;
-  padding: 10px;
+  padding: 5px;
   }
 
   h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: rgb(23, 98, 145);
+    font-size: 28px;
+    color: black;
     text-align: center;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 5px 5px 5px 5px;
-    line-height: 1;
+    line-height: 1; */
     padding: 15px;
+    text-decoration: underline;
   }
 
   h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     text-align: center;
-    font-weight: bold;
     line-height: 1;
     padding: 10px;
+    /* border-style: solid;
+    border-width: 5px 5px 5px 5px; */
+    line-height: 1;
+    padding: 15px;
+  }
+  .descrip{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    /* font-style: italic; */
+    padding-top: 2px;
+    padding-bottom: 10px;
   }
   ol.published{
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     list-style-type: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
   }
 
   ol.tutorials{
@@ -229,32 +231,41 @@ h1{
     padding-top: 20px;
     padding-bottom: 20px;
     list-style-type: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
   }
   ol.workshops{
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 20px;
     list-style-type: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
   }
   ol.technical{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     list-style: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
   }
   ul.talks{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     list-style: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
   }
   .service{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     list-style: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
     }
-
 
 @media all and (min-width:1400px){
 
