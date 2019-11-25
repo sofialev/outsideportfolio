@@ -218,6 +218,9 @@ h1{
     padding: 15px;
   }
 
+ol{
+  list-style-type: decimal;
+}
 @media all and (min-width:1400px){
 
 }
